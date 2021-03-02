@@ -1,0 +1,17 @@
+<div class="navbar navbar-expand-sm">
+  <div>
+    <%= link_to cocktails_path do %>
+      <div id="page-heading">
+        <%= render "icons/glass_full" %>
+        <h1>Cocktails and Dreams...</h1>
+      </div>
+    <% end %>
+  </div>
+  <div id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <%= link_to "Add Cocktail", new_cocktail_path %>
+      </li>
+    </ul>
+  </div>
+</div>

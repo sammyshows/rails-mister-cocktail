@@ -1,0 +1,43 @@
+.card-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-bottom: 30px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center bottom;
+  height: 400px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+}
+
+.card-img-top {
+  border-radius: 5px 5px 0 0;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  h5 {
+    color: #FFD6BA;
+    text-shadow: 1px 1px black;
+  }
+}
+
+#view-button {
+  width: 150px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.card-columns .card {
+  margin-bottom: 2.5rem;
+}
